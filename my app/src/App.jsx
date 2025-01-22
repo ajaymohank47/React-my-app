@@ -1,11 +1,14 @@
-import Test from './components/Test'
-import Test1 from './components/Test1'
-function App(){
-    return (
-      <div>
-       <Test></Test>
-       <Test1></Test1>
-      </div>
-    )
-  }
-  export default App;
+import React from 'react'
+//import Test from './components2/Activity1'
+//import Test from './components2/Activity2'
+import UserList from './components2/Activity3';  // Assuming the file is named 'UserList.js'
+
+function App() {
+  return (
+    <div className="App">
+      <UserList />  {/* Rendering the UserList component */}
+    </div>
+  );
+}
+
+export default App;
